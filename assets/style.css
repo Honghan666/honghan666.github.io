@@ -1,1 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
 
+@media screen and (min-width: 992px) {
+    header {
+        height: 780px;
+        background-image: url('./img/160616-phoi-canh-vincom-shophouse-vi-thanh-1466076091.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #nav {
+        padding-top: 32px;
+    }
+    
+    .nav-item {
+        padding: 0 1%;
+        
+    }
+    .nav-link {
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .nav-content {
+        width: auto;
+        position: absolute;
+        margin-left: 15%;
+        padding-top: 5%;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    /*=====FOOD=============*/
+    .food-background {
+        background-image: url('./img/food/dac-san-hau-giang.jpg');
+    }
+
+    .nav-food {
+        background-color: #fff;
+        margin-top: -32px;
+    }
+
+    /*======QUES=========*/
+    .ques-background {
+        background-image: url('./img/1631313329-du-lich-hau-giang.jpg');
+    }
+    /*=========PLACES=========*/
+    .places {
+        background-image: url('./img/hau-giang.jpg');
+    }
+
+    .nav-place {
+        color: black;
+    }
+
+    .place-title {
+        color: black;
+    }
+
+    img {
+        margin-bottom: 8px;
+    }
+
+}
+
+
+
+
+
+
+.container {
+    margin-top: 6%;
+}
+
+.col-content-1 {
+    border-top: 1px solid rgb(138, 138, 138);
+    padding-top: 16px;
+}
+
+.col-content-2 {
+    padding-left: 8%;
+    font-size: 18px;
+}
+
+.row-content {
+    margin-bottom: 32px;
+}
+
+h5 {
+    text-align: center;
+    padding-bottom: 8px;
+    padding-top: 4px;
+}
+
+img {
+    border-radius: 8px;
+}
+
+.row-img {
+    margin-bottom: 16px;
+}
+
+.img-content {
+    margin-bottom: 32px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(86, 159, 255);
+}
+
+.bando-content {
+    padding: 12px 12px;
+    height: 640px;
+    background-image: url('./img/2.jpg');
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer {
+    text-align: center;
+}
+
+
+/*========TOUR=========*/
+.tour {
+    border-top: 1px solid rgb(138, 138, 138);
+    padding-top: 32px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .img-bando {
+        width: 65%;
+    }
+    .question {
+        margin-top: 10%;
+    }
+
+    .nav-content {
+        text-align: center;
+        font-size: 28px;
+        margin-top: 32px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-link {
+        font-size: 16px;
+    }
+    .nav-content {
+        text-align: center;
+        font-size: 19px;
+        margin-top: 32px;
+    }
+}
+
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    header {
+        height: 520px;
+        background-image: url('./img/160616-phoi-canh-vincom-shophouse-vi-thanh-1466076091.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #nav {
+        padding-top: 32px;
+    }
+    
+    .nav-item {
+        padding: 0 1%;
+        
+    }
+    .nav-link {
+        color: #fff;
+        font-size: 18px;
+    }
+    
+    .nav-content {
+        width: auto;
+        position: absolute;
+        margin-left: 32px;
+        padding-top: 5%;
+        color: #fff;
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    /*=====FOOD=============*/
+    .food-background {
+        background-image: url('./img/food/dac-san-hau-giang.jpg');
+    }
+
+    .nav-food {
+        background-color: #fff;
+        margin-top: -32px;
+    }
+
+    /*======QUES=========*/
+    .ques-background {
+        background-image: url('./img/1631313329-du-lich-hau-giang.jpg');
+    }
+    .img-bando {
+        width: 50%;
+    }
+    .question {
+        margin-top: 10%;
+    }
+
+    /*=========PLACES=========*/
+    .places {
+        background-image: url('./img/hau-giang.jpg');
+    }
+
+    .nav-place {
+        color: black;
+    }
+
+    .place-title {
+        color: black;
+    }
+
+    img {
+        margin-bottom: 8px;
+    }
+
+    /*=========PLACES=========*/
+    .places {
+        background-image: url('./img/hau-giang.jpg');
+    }
+
+    .nav-place {
+        color: black;
+    }
+
+    .place-title {
+        color: black;
+    }
+
+    img {
+        margin-bottom: 8px;
+    }
+
+}
